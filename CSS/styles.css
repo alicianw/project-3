@@ -1,0 +1,21 @@
+/* #first */
+#first{
+    background-image: url(../assets/backgrounds/img1.jpg);
+    background-size: cover ;
+    text-align: center;
+    color: white;
+}
+
+.pics{
+    padding-top: 15%;
+}
+
+.txt{
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+/* special */
+#special{
+    text-align: center;
+}
