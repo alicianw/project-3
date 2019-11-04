@@ -63,7 +63,7 @@
 
 input{
     background: none;
-    color: white;
+    color: white; 
     width: 510px;
     margin-left: 30px;
 }
@@ -77,5 +77,14 @@ textarea{
     color: white;
     margin-top: 30px;
     margin-bottom: 15px;
+}
+
+#h1{
+    color: white;
+}
+
+button{
+    background: none;
+    color: white;
 }
 

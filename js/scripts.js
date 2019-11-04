@@ -1,4 +1,3 @@
-$(document).ready(function() {
 $("#one").click(function() {
 
     $("#one p").toggle();
@@ -17,7 +16,4 @@ $("#three").click(function(){
     $("#three img").toggle();
 });
 
-
-
-
-});
+function result()
