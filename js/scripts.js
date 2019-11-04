@@ -1,3 +1,4 @@
+// jquery service icons
 $("#one").click(function() {
 
     $("#one p").toggle();
@@ -16,6 +17,10 @@ $("#three").click(function(){
     $("#three img").toggle();
 });
 
+// jquery portfolio
+
+
+// form 
 function result(){
     var name = document.getElementById("name").value
     var email = document.getElementById("email").value
@@ -32,5 +37,3 @@ function result(){
     }
 
 }
-
-

@@ -10,6 +10,10 @@
     padding-top: 15%;
 }
 
+#pics{
+    margin-bottom: 4%;
+}
+
 .txt{
     padding-bottom: 70px;
     padding-top: 50px;
@@ -91,4 +95,18 @@ button{
 #icons{
     text-align: center;
     margin-top: 40px; 
+}
+
+#icons img{
+    margin-right: 3%;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+#set1 h4,#set2 h4{
+    display: none;
 }
