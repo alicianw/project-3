@@ -18,7 +18,7 @@
     <img id="pics" src="assets/mouse_click.png">
   </div>
   <div class="special">
-  <h1>ABOUT US</h1>
+  <h2>ABOUT US</h2>
     <p>
         When you work with us, you are part of a team of commited collaborators. All aspects of our software development process 
         are intergrated, interactive and agile.
@@ -40,7 +40,7 @@
        <p><b>on your requirements, we can provide a complete offering or just the prices you need.</b></p>
   </div>
       <div class="special">
-         <h1>WHAT WE DO</h1> 
+         <h2>WHAT WE DO</h2> 
       </div> 
       <div class="container-fluid">
         <div id="zero" class="row">
@@ -78,38 +78,48 @@
         </div>
       </div>
   <div class="special">
-      <h1>PORTFOLIO</h1>
+      <h2>PORTFOLIO</h2>
   </div>    
-  <div class="container-fluid"> 
+  <div class="container-fluid">
     <div id="set1" class="row">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work4.jpg" width="25%">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work3.jpg" width="25%">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work2.jpg" width="25%">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work1.jpg" width="25%">
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work4.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work3.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work2.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work1.jpg" class="img-fluid">
+        </div>    
     </div>
     <div id="set2" class="row">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work5.jpg" width="25%">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work6.jpg" width="25%">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work7.jpg" width="25%">
-      <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work8.jpg" width="25%">
-    </div>  
-  </div>
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work5.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work6.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work7.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+            <img src="/home/alicia/Documents/moringa-school-projects/project-3/assets/portfolio/work8.jpg" class="img-fluid">
+        </div>
+      </div>  
 
   <div class="container-fluid">
   <div id="third">
-     <form>
+     <form action="submit">
        <div class="special">
          <h1>CONTACT US</h1>
        </div>
 
-       <label for="name"></label>
        <input id="name" type="text" placeholder="Name" name="name" required>
-  
-       <label for="email"></label>
        <input id="email" type="text" placeholder="Email" name="email" required>
-
-       <label for="message"></label>
-       <texarea rows="11" coloumns="90" type="text" placeholder="Your message here" name="message" required>
+       <textarea name="message" id="message" cols="70" rows="13">Your message here</textarea>
 
       </form>
   </div>
