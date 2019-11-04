@@ -20,6 +20,22 @@ $("#three").click(function(){
 // jquery portfolio
 
 
+$('.project-tiles img').hover(		
+    function () {
+      $(this).css('opacity','.3');
+      $(".middle").css('opacity','1');
+    }, 
+    function () {
+      $(this).css('opacity','1');
+      $(".middle").css('opacity','0');
+
+    }
+  );
+
+
+
+
+
 // form 
 function result(){
     var name = document.getElementById("name").value
