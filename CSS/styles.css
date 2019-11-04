@@ -126,3 +126,10 @@ button{
     font-size: 25px;
     font-style: italic;
 }
+
+#btn{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 20px;
+}
